@@ -138,16 +138,26 @@
             </section>
             <!-- CONTACT ME -->
             <section id="contact-me">
-                <div class="container">
+                <div class="container py-5 text-center">
                     <div class="row">
                         <div class="col-12">
-                            <div class="title-black">
-                                
+                            <div class="title-contact-me">
+                                <h2>contact me</h2>
+                                <hr class="hr-black">
+                                <i class="fa-solid fa-star fa-xl" style="color: #000000;"></i>
+                                <hr class="hr-black"> 
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="content-big">
-
+                            <div class="content-contact-me">
+                                <form action="#" method="post">
+                                    <input type="text" id="name" name="nome" placeholder="Name" required>
+                                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                                    <input type="tel" id="phone" name="telefono" placeholder="Phone Number" required>
+                                    <br>
+                                    <textarea>Message</textarea>
+                                </form>
+                                <button type="button" class="btn btn-success" id="button-success">Send</button>
                             </div>
                         </div>
                     </div>

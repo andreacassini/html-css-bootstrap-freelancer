@@ -10,11 +10,11 @@ html{
 .white{
     color: white;
 }
-.uppercase, .content-big, .title-portfolio, .title-about{
+.uppercase, .content-big, .title-portfolio, .title-about, .title-contact-me{
     text-transform: uppercase;
 }
 
-.content-big, .title-portfolio, .title-about{
+.content-big, .title-portfolio, .title-about, .title-contact-me{
     line-height: 3;
 }
 
@@ -55,7 +55,7 @@ h3{
     background-color: rgba(44,63,81,255);
 }
 
-.content-header, .content-big, .title-portfolio, .title-about, .content-top-footer{
+.content-big, .title-about, .content-top-footer, .title-contact-me{
     margin: 20px 0;
 }
 .content-portfolio{
@@ -84,6 +84,9 @@ h3{
     border-radius: 15px;
 }
 
+.title-portfolio{
+    margin-top: 20px;
+}
 /* ABOUT */
 #about{
     background-color: rgba(26,189,157,255);
@@ -94,8 +97,32 @@ h3{
 }
 
 /* CONTACT ME */
+input::placeholder{
+    color: rgba(53, 53, 53, 0.87);
+    font-weight: 400;
+}
 
+#name, #email, #phone, textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(0, 0, 0, 0.158);
+    width: 70%;
+    padding: 15px 0;
+}
 
+textarea{
+    color: rgba(53, 53, 53, 0.87);
+    font-weight: 400;
+}
+
+#button-success{
+    margin-top: 20px;
+    float: left;
+    margin-left: 15%;
+    background-color: rgba(26,189,157,255);
+    border-color: white;
+}
 /* FOOTER */
 #top-footer{
     background-color: rgba(59,84,108,255);
