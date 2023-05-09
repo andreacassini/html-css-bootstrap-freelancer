@@ -3,3 +3,56 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+#header, #bottom-footer{
+    background-color: rgba(44,63,81,255);
+}
+
+.content-header, .content-big, .title-portfolio, .content-portfolio, .title-about, .content-top-footer{
+    margin: 20px 0;
+}
+.content-header{
+    background-color: lightgreen;
+    height: 50px;
+}
+
+
+/* JUMBOTRON */
+#jumbotron{
+    background-color: rgba(26,189,157,255);
+}
+
+.content-big{
+    background-color: rgb(255, 92, 92);
+    height: 400px;
+}
+/* PORTFOLIO */
+.title-portfolio, .title-about, .content-bottom-footer{
+    background-color: lightcoral;
+    height: 100px;
+}
+
+.content-portfolio{
+    background-color: orange;
+    height: 400px;
+}
+
+/* ABOUT */
+#about{
+    background-color: rgba(26,189,157,255);
+}
+
+
+/* CONTACT ME */
+
+
+/* FOOTER */
+#top-footer{
+    background-color: rgba(59,84,108,255);
+}
+
+.content-top-footer{
+    height: 100px;
+    background-color: green;
+}
