@@ -70,8 +70,15 @@ h3{
 }
 
 .custom-border{
-    border: 1px solid white;
+    border: 1px solid rgb(190, 190, 190);
 }
+
+.hamburger{
+    color: rgb(131, 131, 131);
+    font-size: 22px;
+    margin-top: 3px;
+}
+
 /* JUMBOTRON */
 #jumbotron{
     background-color: rgba(26,189,157,255);
