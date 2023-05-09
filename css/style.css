@@ -10,7 +10,7 @@ html{
 .white{
     color: white;
 }
-.uppercase, .content-big, .title-portfolio, .title-about, .title-contact-me{
+.uppercase, .content-big, .title-portfolio, .title-about, .title-contact-me, h4{
     text-transform: uppercase;
 }
 
@@ -55,7 +55,7 @@ h3{
     background-color: rgba(44,63,81,255);
 }
 
-.content-big, .title-about, .content-top-footer, .title-contact-me{
+.content-big, .title-about, .title-contact-me{
     margin: 20px 0;
 }
 .content-portfolio{
@@ -126,9 +126,4 @@ textarea{
 /* FOOTER */
 #top-footer{
     background-color: rgba(59,84,108,255);
-}
-
-.content-top-footer{
-    height: 100px;
-    background-color: green;
 }
