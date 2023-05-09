@@ -101,7 +101,7 @@ h3{
 }
 
 /* CONTACT ME */
-input::placeholder{
+input::placeholder, textarea::placeholder{
     color: rgba(53, 53, 53, 0.87);
     font-weight: 400;
 }
@@ -120,7 +120,7 @@ textarea{
     font-weight: 400;
 }
 
-#button-success{
+#submit{
     margin-top: 20px;
     float: left;
     margin-left: 15%;

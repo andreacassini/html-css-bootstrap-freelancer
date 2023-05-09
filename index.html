@@ -153,11 +153,12 @@
                                 <form action="#" method="post">
                                     <input type="text" id="name" name="nome" placeholder="Name" required>
                                     <input type="email" id="email" name="email" placeholder="Email Address" required>
-                                    <input type="tel" id="phone" name="telefono" placeholder="Phone Number" required>
+                                    <input type="tel" id="phone" name="telefono" placeholder="Phone Number" minlength="9" required>
                                     <br>
-                                    <textarea>Message</textarea>
+                                    <textarea maxlength="150" placeholder="Message"></textarea>
+                                    <br>
+                                    <input type="submit" id="submit" name="invia" value="Send" class="btn btn-success">
                                 </form>
-                                <button type="button" class="btn btn-success" id="button-success">Send</button>
                             </div>
                         </div>
                     </div>
